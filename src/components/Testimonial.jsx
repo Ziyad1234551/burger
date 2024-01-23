@@ -47,7 +47,7 @@ export const Testimonial = () => {
 
                 <SwiperSlide>
                     <div className='w-full h-full flex justify-center items-center'>
-                        <div className="w-[600px] rounded-md py-6 h-[400px] lg:h-[300px] bg-primary px-5 ">
+                        <div className="w-[600px] rounded-md py-6 h-auto lg:h-[300px] bg-primary px-5 ">
                             <img src={testi.image} className='w-[80px] h-[80px] mx-auto rounded-full object-cover' alt="" />
                             <h1 className="text-white text-center font-bold text-2xl capitalize my-3 poppin ">{testi.name}</h1>
                             <p className='text-center text-lg dm-display text-white'>
