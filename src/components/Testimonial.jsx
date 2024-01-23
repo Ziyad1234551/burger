@@ -30,7 +30,7 @@ export const Testimonial = () => {
     ]
   return (
     <div data-aos="fade-left" className='my-[150px]  w-full px-7 lg:px-[100px]'>
-        <h1 className='lg:text-5xl text-2xl  lg:my-8 md:my-0 md:text-4xl dm-display text-center font-bold'>What Our Client Say About Us</h1>
+        <h1 className='lg:text-5xl text-2xl my-0 lg:my-8 md:my-0 md:text-4xl dm-display text-center font-bold'>What Our Client Say About Us</h1>
         <Swiper
         spaceBetween={30}
         centeredSlides={true}
@@ -40,14 +40,14 @@ export const Testimonial = () => {
         }}
       
         modules={[Autoplay]}
-        className="mySwiper w-full md:h-[45vh] h-[30vh] my-[100px] flex justify-center items-center"
+        className="mySwiper w-full md:h-[45vh] h-[70vh] lg:my-[40px] flex justify-center items-center"
       >
         {testimonials.map((testi)=>{
             return(
 
                 <SwiperSlide>
                     <div className='w-full h-full flex justify-center items-center'>
-                        <div className="w-[600px] rounded-md py-6 h-auto lg:h-[300px] bg-primary px-5 ">
+                        <div className="w-[600px] rounded-md lg:py-6 h-[450px] py-4 lg:h-[300px] bg-primary px-5 ">
                             <img src={testi.image} className='w-[80px] h-[80px] mx-auto rounded-full object-cover' alt="" />
                             <h1 className="text-white text-center font-bold text-2xl capitalize my-3 poppin ">{testi.name}</h1>
                             <p className='text-center text-lg dm-display text-white'>
