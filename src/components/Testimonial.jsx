@@ -29,7 +29,7 @@ export const Testimonial = () => {
         },
     ]
   return (
-    <div data-aos="fade-left" className='my-[150px] h-[100vh] w-full px-7 lg:px-[100px]'>
+    <div data-aos="fade-left" className='my-[150px]  w-full px-7 lg:px-[100px]'>
         <h1 className='lg:text-5xl text-2xl  lg:my-8 md:my-0 md:text-4xl dm-display text-center font-bold'>What Our Client Say About Us</h1>
         <Swiper
         spaceBetween={30}
