@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { IoMenu, IoMoonOutline, IoSunny } from "react-icons/io5";
+import { IoMenu } from "react-icons/io5";
 import { NavLink } from 'react-router-dom';
 
 
