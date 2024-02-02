@@ -45,7 +45,7 @@ export const Menu = () => {
 
 ]
   return (
-    <div data-aos="zoom-in" className='w-full px-6 lg:px-[100px] mx-auto lg:my-[200px]'>
+    <div data-aos="zoom-in" name="menu" className='w-full px-6 lg:px-[100px] mx-auto lg:my-[200px]'>
         <h1 className='lg:text-6xl text-4xl font-bold dm-display  text-center'>Our Menu</h1>
 
         <div className="lg:grid-cols-4 md:grid-cols-2 grid-cols-1  grid my-10 gap-10">

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { IoMenu } from "react-icons/io5";
 import { NavLink } from 'react-router-dom';
-
+import { Link as ScrollLink } from "react-scroll";
 
 export const Navbar = () => {
     const [nav,setNav] = useState(false)
@@ -20,9 +20,9 @@ export const Navbar = () => {
 
         <div className='lg:flex md:flex hidden gap-4 text-xl font-semibold nunito'>
             <NavLink to="/">Home</NavLink>
-            <NavLink to="/menu">Menu</NavLink>
-            <NavLink to="/about">About </NavLink>
-            <NavLink to="/contact">Contact Us</NavLink>
+            <ScrollLink smooth={true} className='cursor-pointer' to="menu">Menu</ScrollLink>
+            <ScrollLink smooth={true} className='cursor-pointer' to="about">About </ScrollLink>
+            <ScrollLink className='cursor-pointer' to="menu">Product</ScrollLink>
            
 
 
